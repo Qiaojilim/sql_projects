@@ -37,8 +37,7 @@ Other questions please check my sql file
 3.	Math func, min(), max(), avg(), sum()
 4.	String func
 5.	Sub-query: The subquery is performed first since it is inside the parenthesis. We can also use the IN operator in conjunction with a subquery to check against multiple results returned
-
-6.Self.join: A query in which a table is joined to itself. Self-joins are useful for comparing values in a column of rows within the same table
+6.  SELF JOIN: A query in which a table is joined to itself. Self-joins are useful for comparing values in a column of rows within the same table
 
 For instance, California sales tax laws have changed and we need to alert our customers to this through email. What are the emails of the customers who live in California?
 
