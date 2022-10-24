@@ -96,7 +96,7 @@ cur.execute('SELECT * FROM payment')
 Besides, I also visualize my sql result such as histogram, line plot, and other charts to better undestand results. 
 For example, at what range of a month, people shop frequetly in months? From my histgram plot, we can find that durig mid month and end of month, customers pay at most times which is reasonable deu to salary payment periodicly. 
 
-![My Image](./dvdrental/customer_payment_freq.png)
+![My Image](./dvdrental/top10films.png)
 
 ## Authors
 
