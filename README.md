@@ -1,8 +1,8 @@
-# Sakila DVD Rental Database Using SQL and Python Project
+# Sakila DVD Rental Database using SQL, Python with Data Visualization 
 ## Description
 The DVD rental database represents the business processes of a DVD rental store. The DVD rental database has many objects, including: 15 tables, 1 trigger, 7 views, 8 functions, 1 domain, 13 sequences.
 
-This project includes 4 major module to analyze several business analysis quetions and visulization both in PostgresSQL and Python such as: How can you produce a list of members who joined after a specific time range and location (with multiple constraints)? What is the top 10 most productive actors by their total amount of films in the last 5 year? what time range customers spend the most money?
+This project includes 4 major modules to analyze several business analysis questions and visualization both in PostgresSQL and Python such as: How can you produce a list of members who joined after a specific time range and location (with multiple constraints)? What is the top 10 most productive actors by their total amount of films in the last 5 year? what time range customers spend the most money?
 
 ## Getting Started
 
@@ -93,7 +93,10 @@ cur = conn.cursor()
 cur.execute('SELECT * FROM payment')
 ```
 
+Besides, I also visualize my sql result such as histogram, line plot, and other charts to better undestand results. 
+For example, at what range of a month, people shop frequetly in months? From my histgram plot, we can find that durig mid month and end of month, customers pay at most times which is reasonable deu to salary payment periodicly. 
 
+![My Image](./dvdrental/customer_payment_freq.png)
 
 ## Authors
 
